@@ -1,0 +1,2870 @@
+/*Select-Options*/
+.Select-menu-outer {
+  position: absolute !important;
+  width: 100%;
+  cursor: pointer;
+  /* overflow-x: auto !important; */
+  /* overflow: visible; */
+  height: 100%;
+  z-index: 1000001 !important;
+}
+.Select-menu {
+  max-height: 182px;
+  overflow-y: auto !important;
+  /* overflow-x: auto !important; */
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.Select-color {
+  cursor: text;
+}
+.Select-menu li {
+  max-height: 10px;
+}
+
+.card-form .parent-picture-src img {
+  height: 100px !important;
+  width: 100px !important;
+  border-radius: 19px !important;
+}
+/*LOGIN PAGE*/
+.full-page .full-page-background {
+  z-index: 3;
+}
+
+.full-page .footer {
+  position: fixed;
+  z-index: 5;
+}
+
+@media(max-width:768px) {
+  .full-page .card .footer .legend {
+    /* margin: -60px; */
+  }
+
+  .off-canvas-sidebar #root .main-panel .main-content .card {
+    margin-bottom: 10px !important;
+  }
+  .full-page .footer {
+    position: relative;
+    bottom: -25px;
+    z-index: 5;
+  }
+  .location{
+    margin: -20px 0px 0px 0px !important;
+  }
+}
+
+
+
+.full-page>.content {
+  z-index: 5;
+}
+.full-page .card .form-control {
+  height: 30px;
+  line-height: 1;
+}
+
+.login-page .card {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media(max-width:992px) {
+  .full-page .footer {
+    /* position: sticky !important; */
+    left: 0;
+    bottom: 0 !important;
+    width: 100%;
+    height: auto;
+  }
+
+  .dropdown-menu>li>a .fa,
+  .sidebar .user a {
+    padding-top: 0px;
+  }
+.calendar {
+  padding: 10px 5px;
+  border-radius: 0.4rem;
+  margin: 0 0px 5px 0 !important;
+}
+}
+
+.full-page-background {
+  background: url(../img/login-bg.jpg) !important;
+  background-size: cover !important;
+}
+
+/*MAIN PAGE*/
+
+.navbar-nav a img {
+  width: 50%;
+}
+
+.nav>li>a {
+  padding: 5px 15px;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li.selected>a {
+  font-weight: 500;
+}
+
+.sidebar .logo {
+  padding: 7px 0px;
+}
+
+li.user.dropdown-with-icons.dropdown {
+  padding-top: 12px;
+}
+.user-logo {
+  float: right;
+}
+.sidebar .nav p {
+  font-weight: 400;
+}
+.sidebar .sidebar-wrapper {
+  height: calc(90% - 33px);
+}
+@media (min-width: 992px) {
+  .sidebar-mini .sidebar:hover {
+    width: 260px;
+    z-index: 10000001;
+  }
+}
+
+.editLink {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.main-panel .main-content ::-webkit-scrollbar {
+  display: none;
+  width: 10px !important;
+}
+.navbar-default {
+  position: fixed;
+  top: -1px;
+  width: inherit;
+  z-index: 2;
+}
+.navbar-default .navbar-brand:hover {
+  cursor: default;
+}
+
+@media(max-width:768px) {
+  .navbar-default {
+    position: sticky !important;
+  }
+
+  .footer {
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  #root .wrapper .main-panel .footer {
+    position: sticky !important;
+    z-index: 10000001;
+    bottom: 0 !important;
+  }
+
+  p.copyright.pull-right {
+    float: right !important;
+  }
+}
+#root .wrapper .main-panel .footer {
+  position: fixed;
+  z-index: 12;
+  bottom: 0 !important;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .copyright {
+  padding: 0;
+  margin: 3px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.card .content .list-header .btn-primary,
+.card .content .list-header .btn-default {
+  margin: 0px 1px 11px;
+  padding: 4px;
+  width: auto;
+}
+
+body {
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;
+}
+
+.navbar .navbar-nav>li>a [class^="fa"] {
+  font-size: 16px;
+  position: relative;
+  line-height: 16px;
+}
+.main-panel .navbar{
+  margin-bottom: 0;
+  z-index: 10 !important;
+}
+/* FORM*/
+.card .card-content {
+  /* position: relative; */
+  width: 100%;
+}
+
+.card .form-group>label {
+  font-size: 12px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.form-control {
+  height: 30px;
+  line-height: 1;
+}
+
+.Select-control {
+  height: 30px !important;
+  display: inherit;
+  cursor: text;
+}
+
+.Select-placeholder {
+  line-height: 30px !important;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+
+.checkbox label {
+  padding-left: 22px;
+}
+
+.Select-control .Select-arrow,
+.Select-control .Select-arrow:hover {
+  border-width: 5px 5px 2.5px;
+}
+.ReactTable .rt-thead, .modal-content .ReactTable .rt-thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.ReactTable .rt-tfoot, .ReactTable .rt-tfoot .rt-td:first-child,.ReactTable .rt-tfoot .rt-td:last-child {
+  position: relative !important;
+}
+.off-canvas-sidebar #root .main-panel .main-content .card .ReactTable .rt-thead .rt-resizable-header-content {
+  padding-bottom: 0px !important;
+}
+
+.ReactTable .rt-thead .rt-th {
+  font-size: 12px;
+}
+
+.actions-right .fa {
+  border-radius: 4px;
+  padding: 5px 6px 4px 5px;
+  text-align: center;
+  margin-right: 4px;
+  width: 23px;
+}
+.actions-right .fa.fa-text:last-child {
+  margin-right: 0px !important;
+}
+.navbar .navbar-nav>li>a [class^="fa"] {
+  padding-top: 20px;
+}
+
+.navbar .navbar-nav .notification {
+  top: 15px;
+}
+
+.actions-right {
+  text-overflow: none !important;
+}
+
+.actions-right .danger,
+.danger:hover {
+  width: 22px;
+}
+
+.actions-right .success,
+.success:hover {
+  width: 22px;
+}
+
+/*CALENDAR*/
+.rbc-date-cell {
+  font-size: 18px;
+}
+
+.rbc-header {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.rbc-month-row {
+  overflow: initial;
+}
+.rdtPicker td.rdtToday {
+  position: relative;
+}
+
+.rdt.rdtOpen .rdtPicker {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0;
+}
+
+.rdtOpen .rdtPicker {
+  top: auto;
+}
+
+.rdt .rdtPicker {
+  position: absolute;
+}
+
+.ReactTable .rdt .rdtPicker {
+  position: absolute;
+  right: -16px;
+  z-index: 1 !important;
+}
+
+.rdtOpen .rdtPicker {
+  display: block;
+}
+
+/*CURSOR*/
+.ReactTable .rt-thead .rt-th.-cursor-pointer.-sort-asc>div:first-of-type:after {
+  content: "\f161";
+  float: right;
+  right: 15px;
+}
+
+.ReactTable .rt-thead .rt-th.-cursor-pointer.-sort-desc>div:first-of-type:after {
+  content: "\f160";
+  float: right;
+  right: 15px;
+}
+
+.ReactTable .rt-thead .rt-th.-cursor-pointer>div:first-of-type:after {
+  float: right;
+  right: 15px;
+}
+/*PAGINATION*/
+@media (max-width: 778px) {
+  .ReactTable .-pagination .-btn {
+    width: 30% !important;
+  }
+
+  .ReactTable .-pagination .-center {
+    flex: none;
+    margin-top: -3px;
+    float: left;
+    margin-left: 0;
+    width: 78% !important;
+  }
+
+  .ReactTable .-pagination .-previous {
+    margin-right: -50px !important;
+  }
+
+  .ReactTable .-pagination .-next {
+    text-align: center;
+    width: 1% !important;
+    margin-right: 0;
+  }
+
+  .ReactTable .-pagination input,
+  .ReactTable .-pagination input:focus {
+    padding-left: 0px !important;
+  }
+}
+
+.ReactTable .-pagination .-pageJump {
+  display: contents;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  margin: 3px -58px;
+  white-space: nowrap;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 45%;
+}
+
+@media(max-width:1024px) {
+  .ReactTable .-pagination .-btn {
+    width: 100%;
+  }
+}
+
+.ReactTable .-pagination input,
+.ReactTable .-pagination input:focus {
+  width: 30%;
+  padding-left: 10px;
+}
+
+.ReactTable .-pagination .-pageJump {
+  display: contents;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  margin: 3px -58px;
+  white-space: nowrap;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 45%;
+}
+
+@media(max-width:1024px) {
+  .ReactTable .-pagination .-btn {
+    width: 100%;
+  }
+}
+.wrapper {
+  background: url(../img/main-bg.jpg);
+  ;
+  background-size: cover;
+  max-height: calc(100vh - 136px);
+  /* -moz-height: 100%;
+  -ms-height: 100%;
+  height: 100%; */
+  overflow: auto;
+}
+
+.wrapper ::-webkit-scrollbar {
+  /* display: none;
+  width: 2px !important; */
+}
+
+.modal-content .section-header {
+  margin: 5px 15px 0px 15px;
+}
+
+.modal-content .nav-tabs {
+  margin: 5px 15px 0 15px;
+  /* border-bottom: 1px solid #135666; */
+  /* padding: 5px 0 0 15px;
+  margin-left: -30px;
+  display: contents !important; */
+}
+
+.tab-content {
+  /* margin: 0 0 0 15px; */
+  margin: 0;
+  width: 100%;
+}
+
+/* .nav-tabs {
+  margin-left: 15px;
+  border-bottom: 1px solid #0084bf !important;
+} */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  cursor: pointer;
+  border: none
+}
+
+.nav-tabs>li>a,
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+
+.Select-placeholder,
+.Select--single>.Select-control .Select-value {
+  line-height: 30px;
+}
+
+.table-img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.request-progress {
+  counter-reset: step;
+  display: table;
+  padding: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: -10px;
+}
+
+.request-progress li {
+  content: "\f0c3";
+  list-style-type: none;
+  float: left;
+  width: 10%;
+  font-size: smaller;
+  position: relative;
+  text-align: center;
+}
+
+.request-progress li:before {
+  content: "\f0c3";
+  /* content: counter(step);
+  counter-increment: step; */
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 5px auto;
+  border-radius: 50%;
+  font: 15px/2 FontAwesome;
+}
+
+.request-progress li:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: calc(100% - 20%);
+  top: 15px;
+  left: calc(-50% + 15px);
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif !important;
+  z-index: 1;
+}
+
+.request-progress li:first-child::after {
+  content: none;
+}
+
+.request-progress li.active:before {
+  z-index: -1;
+}
+
+.request-progress li.active+li:after {
+  z-index: 0;
+}
+
+/* 19-03-2019 CSS from arrowWelth*/
+.section-head {
+  padding: 0px 10px 10px 10px;
+  bottom: 0%;
+  position: sticky;
+}
+/*PAGINATION*/
+.ReactTable .-pagination {
+  float: right;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 100%;
+}
+
+.ReactTable .-pagination .-next {
+  text-align: center;
+  width: 15%;
+  margin-right: 12%;
+}
+
+.ReactTable .-pagination {
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.ReactTable .-pagination .-center {
+  -ms-flex: none;
+  flex: none;
+  margin-top: 0px;
+}
+
+/* .ps--active-x > .ps__rail-x, .ps--active-y > .ps__rail-y {
+    display: none;
+    background-color: transparent;
+}
+.main-panel .main-content .row .col-md-6 .card .content
+    { overflow-x: -moz-scrollbars-none !important; } */
+.login-page .card .btn-wd {
+  margin-top: 5%;
+  padding: 8px;
+}
+.login-page .card .btn-wd {
+  max-width: 20vw;
+}
+.login-page .card .header {
+  padding: 70px 0px 0px 0;
+  background-image: url(/static/media/ERP_Arrowsoft.ca1114de.png) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 45%;
+}
+
+.login-page .card .header h4 {
+  font-size: 20px;
+}
+
+.login-page .card {
+  /* background-color: rgb(0, 69, 81); */
+  padding-top: 5px;
+  padding-bottom: 5%;
+}
+
+.login-page .card .content {
+  padding: 5px 15px 0px 15px;
+  position: relative;
+}
+
+.login-page .form-group {
+  margin-bottom: 10px;
+}
+.footer-transparent .container {
+  width: 100%;
+}
+
+/* .Select-placeholder,
+.Select--single>.Select-control .Select-value {
+  line-height: 28px;
+} */
+
+.full-page:before {
+  opacity: 1;
+}
+
+.full-page:after {
+  z-index: 3;
+  opacity: 1;
+}
+
+body,
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+.alert,
+a,
+.td-name,
+td,
+button.close {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif !important;
+  font-weight: 400;
+}
+
+.Select-arrow-zone {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 16px;
+  float: right;
+  padding-top: 2px;
+  line-height: 22px;
+}
+
+/* THEME TESTING ERP*/
+.ReactTable textarea.form-control {
+  line-height: 18px;
+  padding: 2px 12px;
+}
+textarea.form-control {
+  height: auto;
+  padding-top:4px !important;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 16px/1 FontAwesome !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.sidebar .nav i {
+  margin-top: 6px;
+}
+
+.btn {
+  opacity: 1 !important;
+}
+
+.close {
+  opacity: 1;
+}
+.ReactTable .rt-thead .rt-th:last-child {
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 25px auto;
+  }
+}
+
+.sweet-alert button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  margin-top: 0px !important;
+}
+
+.sweet-alert {
+  outline: none;
+  width: 535px !important;
+  padding: 17px;
+  border-radius: 5px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  top: 35% !important;
+  margin-left: -266px;
+  margin-top: -30px !important;
+  overflow: hidden;
+  z-index: 100000001 !important;
+  animation: showSweetAlert 0.3s ease 0s 1 normal none running;
+  display: table !important;
+  max-height: 100%;
+}
+
+/* Pagination */
+.ReactTable .-pagination .-previous .-btn:before {
+  content: "\f100";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  color: #000;
+  font-size: 18px;
+  padding-right: 0.5em;
+  /* position: absolute; */
+  top: 10px;
+  left: 0;
+}
+
+.ReactTable .-pagination .-next .-btn:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 18px;
+  padding-right: 0.5em;
+  top: 10px;
+  left: 0;
+}
+
+.ReactTable .-pagination .-btn {
+  color: rgba(255, 255, 255, 0) !important;
+  width: 35px;
+  background: rgba(255, 255, 255, 0) !important;
+  color: transparent;
+}
+
+.ReactTable .-pagination .-btn:not([disabled]):hover {
+  background: rgba(0, 0, 0, 0);
+  color: rgba(255, 255, 255, 0);
+}
+
+.ReactTable .-pagination input,
+.ReactTable .-pagination input:focus {
+  width: 100%;
+  padding-left: 0;
+}
+
+.ReactTable .-pagination .-pageJump {
+  display: inline-block;
+  width: 30%;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  display: contents;
+}
+
+.ReactTable .card .card-form .btn-primary {
+  margin-top: 0px !important;
+}
+
+/*PAGINATION*/
+.ReactTable .-pagination {
+  float: right;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 35px;
+}
+
+.ReactTable .-pagination .-next {
+  text-align: center;
+  width: 15%;
+  margin-right: 0;
+}
+
+.ReactTable .-pagination {
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.card-content .pagination-bottom {
+  position: sticky;
+  margin: 0px !important;
+}
+
+.pagination-bottom {
+  padding-top: 3px;
+  bottom: 0px;
+  position: -webkit-sticky;
+  position: sticky !important;
+  z-index: 1;
+  /* margin: 0px -15px -15px -15px; */
+}
+
+/*PAGINATION*/
+
+
+.ReactTable .-pagination .-center {
+  flex: none;
+  margin-top: -3px;
+  float: left;
+}
+
+.ReactTable .-pagination input,
+.ReactTable .-pagination input:focus {
+  width: 30%;
+  padding-left: 0px;
+}
+
+.ReactTable .-pagination .-pageJump {
+  display: contents;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ReactTable .-pagination select,
+.ReactTable .-pagination select:focus {
+  height: 34px;
+}
+
+@media(max-width:1024px) {
+  .ReactTable .-pagination .-btn {
+    width: 100%;
+  }
+}
+
+.Search-outer-menu {
+  min-height: 20% !important;
+  z-index: 999;
+}
+
+@media(max-width:768px) {
+  .large-modal {
+    width: 95% !important;
+  }
+
+  .progress-detail {
+    text-align: left;
+    margin-left: 25%;
+  }
+
+  .request-progress {
+    counter-reset: step;
+  }
+
+  .request-progress li {
+    display: contents;
+  }
+
+  .request-progress li:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 56%;
+    border-right: 15px;
+    left: calc(-70% + 15px);
+    z-index: -1;
+  }
+
+  .request-progress li.active+li:after {
+    z-index: -1;
+  }
+
+  .request-progress li:before {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    /* border: 1px solid #ddd; */
+    display: inline-block;
+    text-align: center;
+    margin: 0 1% 1% 20%;
+    border-radius: 50%;
+  }
+
+  .main-panel .main-content {
+    margin: 10px 0px -15px 0px !important;
+    min-height: calc(100vh - 100px) !important;
+    scrollbar-width: none;
+  }
+  .chart-line {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}
+.large-modal {
+  width: 95% !important;
+}
+.modal-close, .modal-header .close{
+  text-align: right;
+  margin-top: 0px;
+  margin-right: -10px;
+  margin-bottom: -15px;
+  height: 15px;
+}
+.modal-close a.fa.fa-times.text-danger{
+padding: 3px;
+margin-right: 10px;
+width: 23px;
+font-size: 23px !important;
+border-radius: 4px;
+}
+.modal-header {
+  font-size: 22px;
+}
+
+.modal-body {
+  position: relative;
+  padding-top: 15px !important;
+  display: flow-root !important;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  display: inline-block;
+  width: 100%;
+  padding: 15px;
+}
+
+.modal-footer {
+  padding: 10px 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+/* .modal-content .card-content .card-footer {
+  border-top: 2px solid #0084bf !important;
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-left: -15px;
+} */
+
+.modal-content .card-content .card-form {
+  /* max-height: calc(100vh - 50px) !important; */
+  margin: 0;
+  display: flow-root !important;
+  display: inline-flex;
+  padding-bottom: 10px;
+  z-index: 9999 !important;
+  display: inline-block;
+  width: 100%;
+  /* scrollbar-width: none; */
+}
+
+/* .modal-content .card-footer{
+  border-top: 1px solid #0084bf !important;
+  top: 0;
+} */
+
+
+.modal-body .input-group .form-control:first-child {
+  border-radius: 4px;
+}
+
+/*22-03-2019*/
+.ReactTable .rt-table {
+  flex: auto 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+  border-collapse: collapse;
+  overflow: auto;
+}
+
+.ReactTable .rt-table::-webkit-scrollbar {
+  display: inline-block;
+  margin-top: 10px !important;
+  height: 10px !important;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  margin-top: 0px !important;
+}
+
+.progress {
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 15px;
+  margin-bottom: 0px;
+}
+
+.ReactTable ::-webkit-scrollbar {
+  /* display: none; */
+  height: 5px !important;
+}
+.dropdown-menu>li>a .fa {
+  padding-top: 8px;
+}
+
+.ledger-negative {
+  background-color: #fb404b;
+  margin: -7px -6px !important;
+  padding: 10px 6px !important;
+}
+
+.ReactTable .rt-td .ledger-positive {
+  background-color: #87cb16;
+  margin: -7px -6px !important;
+  padding: 10px 6px !important;
+}
+
+
+
+.input-group-addon .fa {
+  font-size: 12px !important;
+}
+
+.input-group-addon .fa:hover {
+  font-size: 16px !important;
+}
+
+.ReactTable .input-group-addon .fa:hover {
+  font-size: 14px !important;
+}
+
+
+@media (max-width:992px) {
+  .request-progress li:after {
+    width: 67% !important;
+  }
+}
+
+@media (max-width: 880px) {
+  .request-progress li:after {
+    width: 58% !important;
+  }
+}
+
+@media (max-width:992px) {
+  .request-progress li:after {
+    width: 55% !important;
+  }
+}
+
+@media (max-width:1440px) {
+  .request-progress li:after {
+    width: 76% !important;
+  }
+}
+
+@media only screen and (min-width:2000px) and (max-width:2559px) {
+  .request-progress li:after {
+    width: 82% !important;
+  }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1439px) {
+  .request-progress li:after {
+    width: 67% !important;
+  }
+}
+
+@media only screen and (min-width:1050px) and (max-width:1199px) {
+  .request-progress li:after {
+    width: 63% !important;
+  }
+}
+
+@media (max-width:2100px) {
+  .request-progress li:after {
+    width: 79%;
+  }
+}
+
+@media (width: 2640px) {
+  .request-progress li:after {
+    width: 83%;
+  }
+}
+
+@media (width: 2560px) {
+  .request-progress li:after {
+    width: 87%;
+  }
+}
+
+@media(max-width:768px) {
+  .sidebar .user .photo {
+    margin-top: -15%;
+  }
+
+  .sidebar .user {
+    padding-bottom: 0;
+    margin-top: 10px;
+  }
+
+  .photo img {
+    height: 35px !important;
+    width: 35px !important;
+    border-radius: 17px !important;
+  }
+
+  .sidebar .logo {
+    padding: 9px 0px;
+  }
+}
+
+@media(max-width:1024px) {
+  .card .content .list-header .btn-primary {
+    float: right !important;
+    margin: 0px 5px 5px 0px !important;
+  }
+}
+
+.photo img {
+  height: 35px !important;
+  width: 35px !important;
+  border-radius: 19px !important;
+}
+
+.table-select {
+  position: relative;
+  width: 400px;
+  margin-top: -15px;
+  display: contents;
+}
+
+.ReactTable .rt-td::-webkit-scrollbar {
+  display: none;
+}
+
+.ReactTable .-loading.-active {
+  opacity: 0;
+  z-index: -1;
+}
+
+.drop_down {
+  z-index: 2;
+}
+
+.ReactTable .rt-td .Select .Select-menu, .ReactTable .rt-td .Select-menu-outer {
+  z-index: 1 !important;
+}
+
+/* ::-webkit-scrollbar-thumb{
+  background: rgba(147, 193, 214, 0.7);
+} */
+
+#transporter-details,
+#transporter-details .ReactTable {
+  /* padding-left: 15px; */
+  max-height: calc(100vh - 200px);
+}
+
+.main-panel .main-content {
+  margin: 70px 0px 0px 0px;
+  min-height: calc(100vh - 100px) !important;
+  scrollbar-width: none;
+  width: 100%;
+  padding: 0px 0px 15px!important;
+  /* margin: 40px 0px -15px 0px;
+  padding: 30px 0px !important; */
+}
+
+.card {
+  background-color:#dedede;
+  width: 100%;
+  height: 100%;
+  /* overflow: auto; */
+  /* max-height: calc(100vh - 105px);
+  overflow-y: auto;
+  overflow-x: hidden !important;
+   margin-bottom: 0 !important; */
+  scrollbar-width: none;
+
+}
+
+.main-panel .main-content .row .col-md-6 .card .content {
+  max-height: calc(24vh);
+  /* overflow-y: scroll; */
+}
+
+.ReactTable .rt-tbody,
+.ReactTable .rt-table,
+.card .content {
+  /* overflow-x: scroll !important;  */
+  /* overflow: visible !important; */
+  width: 100%;
+}
+
+.ReactTable .rt-table::-webkit-scrollbar {
+  -ms-overflow-style: scroll !important;
+}
+
+.ReactTable .rt-td {
+  overflow: relative;
+}
+
+.ReactTable .rt-td .form-group {
+  margin-bottom: 0px;
+}
+
+/* @media(max-width:992px) {
+  .ReactTable {
+    overflow-y: scroll !important;
+    scrollbar-width: none;
+  }
+} */
+.rt-td .Select-control .Select-menu-outer {
+  z-index: 1 !important;
+}
+
+/* .ReactTable .rt-tbody, .ReactTable .rt-table{
+  overflow-x: inherit !important;
+} */
+/* .tab-content .btn-primary.btn-fill {
+  margin-left: 15px;
+} */
+
+.ReactTable .rt-td .value-danger {
+  background-color: #c10000;
+  /* margin: -7px -3px !important; */
+  padding: 5px 6px !important;
+  color: #fff;
+  border-radius: 4px;
+  overflow: auto !important;
+}
+
+.ReactTable .rt-td .value-success,
+.ReactTable .rt-td .value-success:hover {
+  background-color: #6aab00;
+  /* margin: -7px -3px !important; */
+  padding: 5px 6px !important;
+  color: #fff;
+  border-radius: 4px;
+  overflow: auto !important;
+}
+
+.ReactTable .rt-td .value-warning,
+.ReactTable .rt-td .value-warning:hover {
+  background-color: #ffbf00;
+  /* margin: -7px -3px !important; */
+  padding: 5px 6px !important;
+  color: #fff;
+  border-radius: 4px;
+  overflow: auto !important;
+}
+
+
+.form-control input {
+  font-family: inherit;
+}
+
+/* 03-04-2019 */
+/* .main-panel .navbar{
+  margin-top:-7px;
+} */
+.navbar .navbar-minimize {
+  float: left;
+  margin: 3px 15px;
+}
+
+.navbar .navbar-brand {
+  margin: 0px !important;
+  font-weight: 400;
+  padding: 18px 15px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.navbar .btn {
+  margin: 7px 3px;
+  font-size: 14px;
+}
+
+.navbar .navbar-nav>li>a {
+  padding: 0px 15px 0 15px;
+  margin: 0px 3px;
+  position: relative;
+}
+
+.ReactTable {
+  padding-bottom: 5px;
+  /* max-height: 65vh; */
+  max-height: 75vh !important;
+  -ms-overflow-style: scrollbar;
+}
+
+.card .card-form {
+  /* max-height: calc(100vh - 50px) !important; */
+  /* border-bottom: 2px solid #0084bf !important; */
+  margin: 0px;
+  display: flow-root !important;
+  /* display: inline-flex; */
+  display: inline-block;
+  padding-bottom: 10px;
+  z-index: 9999 !important;
+  -ms-overflow-style: scrollbar;
+  width: 100%;
+}
+
+.card .content .row .row .card-form {
+  margin-right: 0px !important;
+}
+
+/* .card .row .row .card-form{
+  margin-right: -30px !important;
+} */
+
+/*.card .row .row .card-form .card-footer{
+  margin: 0px -30px 0 0px !important;
+} */
+.card .card-form .btn-primary {
+  margin-top: 10px;
+  /* margin-bottom: -10px; */
+}
+
+/* .card .card-footer {
+  padding: 15px;
+  z-index: 2;
+} */
+
+
+
+@media(min-width: 768px) {
+  .navbar>.container-fluid .navbar-brand {
+    margin-left: -10px;
+  }
+}
+
+.main-panel .ps__thumb-y {
+  background-color: #1e6ebf;
+  border-radius: 6px;
+  -o-transition: background-color .2s linear, width .2s ease-in-out;
+  transition: background-color .2s linear, width .2s ease-in-out;
+  -webkit-transition: background-color .2s linear, width .2s ease-in-out;
+  width: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.main-panel .ps__rail-y:hover>.ps__thumb-y,
+.main-panel .ps__rail-y:focus>.ps__thumb-y {
+  background-color: #1e6ebf;
+  width: 0px;
+}
+.ps__rail-y:hover > .ps__thumb-y, .ps__rail-y:focus > .ps__thumb-y {
+  background-color: #999;
+  width: 8px;
+}
+.main-panel .ps__rail-x:hover,
+.main-panel .ps__rail-y:hover,
+.main-panel .ps__rail-x:focus,
+.main-panel .ps__rail-y:focus {
+  background-color: transparent;
+}
+
+.request-progress li.active+li:after {
+  z-index: 0;
+}
+
+.request-progress li.active:before {
+  z-index: -1;
+}
+
+@media only screen and (max-width: 2559px) and (min-width: 2000px) {
+  .request-progress li:after {
+    width: 85% !important;
+  }
+}
+
+.ReactTable .rt-tbody .rt-td:last-child {
+  white-space: nowrap;
+}
+.tab-content .ReactTable .Select.is-open::-webkit-scrollbar {
+  display: none !important;
+  /* width: 2px !important; */
+}
+.modal-content .Select.is-open,
+.ReactTable .form-group .Select .is-open {
+  z-index: 10000001 !important;
+  scrollbar-width: none !important;
+}
+
+.modal-content .Select-option, .ReactTable .Select-option {
+  line-height: 15px;
+}
+.modal-content .Select-menu, .ReactTable .Select-menu {
+  max-height: 9em !important;
+}
+
+/* ----------- */
+.initechNode {
+  padding: 5px;
+  width: 150px;
+  display: inline-block;
+  margin: 0 2px;
+}
+.react-table-subcomponent {
+  margin: 15px 15px 30px 15px;
+}
+
+/* ***************** */
+.modal {
+  /* z-index: 100000001; */
+  z-index: 4999;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 99%;
+}
+
+.upload-btn-wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.uploadButton {
+  width: 100%;
+  min-height: 10vh;
+  border-color: grey !important;
+  border-width: 2px;
+  background-color: lightgrey !important;
+  border-style: dashed;
+}
+
+input,
+textarea {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.Select-clear {
+  display: inline-block !important;
+  line-height: 26px;
+}
+
+.Select-clear-zone {
+  font-weight: 800;
+  color: #ff3535 !important;
+  cursor: pointer;
+  /* display: inline-block; */
+  float: right;
+  padding-right: 5px;
+}
+.table .table {
+  background-color: #c7d7db;
+}
+
+/*25-4-2019*/
+/* Scrollbar */
+/* width */
+.ReactTable .rt-table::-webkit-scrollbar,
+.rc-tree::-webkit-scrollbar,
+.checkList::-webkit-scrollbar,
+.smooth-dnd-container.horizontal::-webkit-scrollbar,
+.bsakmj::-webkit-scrollbar {
+  width: 12px;
+  margin-top: 10px !important;
+  height: 10px !important;
+  border-radius: 10px;
+  display: inline-block;
+}
+.modal-content #save_tooltip {
+  z-index: 4 !important;
+  position: fixed;
+  display: none;
+}
+
+.card-calendar {
+  margin-bottom: 0 !important;
+}
+
+/*Latest*/
+.modal-content .btn-wd {
+  min-width: 140px;
+  background-color: #135666 !important;
+  margin: 15px;
+}
+
+.modal-body .tooltip,
+.tooltip,
+.cardModal .Select.is-open {
+  z-index: 10000000001 !important;
+  position: absolute;
+}
+
+.cardModal .list-header .btn-primary {
+  margin-top: -4px;
+  margin-bottom: 7px;
+}
+
+.cardModal {
+  padding: 10px 0px;
+  background: #d0dcf5;
+  margin: 0px;
+  display: inline-block;
+  width: 100%;
+  scrollbar-width: none;
+}
+
+@media only screen and (min-width:320px) and (max-width:500px) {
+  .sweet-alert {
+    width: 100% !important;
+    left: 0 !important;
+    margin: 0px 0px !important;
+  }
+}
+
+.ql-container.ql-snow {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.ql-snow .ql-tooltip {
+  background-color: #d2d2d2;
+  z-index: 1;
+}
+
+.ql-toolbar.ql-snow {
+  background: rgba(95, 158, 160, 0.5);
+}
+
+.ql-editing,
+.ql-tooltip {
+  left: 0 !important;
+  top: 38px !important;
+  color: #fff;
+}
+.modal-content .tab-content .btn-default {
+  margin-top: 5px !important;
+}
+
+.rt-tr-group .btn-primary {
+  margin-right: 15px !important;
+}
+
+/*actions-right*/
+.actions-right button.btn.btn-default:hover{
+  background: transparent;
+}
+.actions-right .btn .fa {
+  width: 23px !important;
+}
+
+.actions-right .fa {
+  padding: 3px 3px;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 992px) {
+  .dropdown p {
+    color: #fff !important;
+  }
+  .sidebar .user .photo {
+    margin-top: -15%;
+    margin-left: 0px;
+  }
+  .sidebar .sidebar-wrapper .nav li a, .sidebar .sidebar-wrapper .user .info li a {
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+  .sidebar .sidebar-wrapper > .nav > div .nav > li > a{
+    background: transparent !important;
+    color: #fff !important;
+  }
+  .dropdown-menu>li>a .fa {
+    padding-top: 0;
+}
+}
+
+/* .card-footer.actionMar {
+    margin-left: -25px !important;
+} */
+.tab-pane {
+  padding: 5px 0;
+}
+
+/*actions-right*/
+.actions-right .btn-list {
+  border: none !important;
+  margin-left: -2px !important;
+  padding: 0px !important;
+  background: transparent;
+}
+
+.actions-right .text-default,
+.actions-right .text-primary,
+.actions-right .text-danger {
+  color: #fff !important;
+}
+
+.actions-right .text-default:hover,
+.actions-right .text-primary:hover,
+.actions-right .text-danger {
+  color: #fff !important;
+}
+
+.actions-right .btn .fa {
+  width: 23px;
+}
+
+.actions-right .fa {
+  padding: 3px 3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.input-group .form-control {
+  z-index: 1;
+}
+
+.ReactTable .input-group .form-control {
+  z-index: 0;
+}
+
+.Select-noresults {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #999999;
+  cursor: not-allowed;
+  display: block;
+  padding: 0px 5px;
+  line-height: 30px;
+  border: none !important;
+  background: #fff;
+}
+
+h5.text-danger,
+h5.text-danger:hover {
+  color: #e00700 !important;
+  padding-top: 10px;
+  display: contents;
+  cursor: default;
+}
+.text-danger, .text-danger:hover {
+  color: #e00700 !important;
+}
+.list-header .form-group .Select.is-open {
+  margin-top: 0px !important;
+  position: relative !important;
+  width: auto;
+}
+
+.modal-content .section-footer {
+  margin: 5px -15px 15px -15px;
+}
+
+.card-footer .btn {
+  margin-right: 10px;
+}
+
+.Select-control .is-disabled {
+  cursor: not-allowed !important;
+}
+.reactOrgChart {
+  overflow: auto !important;
+  /* margin: 5px 10px 5px 15px; */
+  padding-bottom: 10px;
+  max-height: 65vh;
+}
+
+.reactOrgChart::-webkit-scrollbar {
+  width: 10px !important;
+  margin-top: 20px !important;
+  height: 10px !important;
+  border-radius: 10px;
+  display: inline-block !important;
+}
+
+/* Track */
+.reactOrgChart::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.reactOrgChart::-webkit-scrollbar-thumb {
+  background: #7d7e7d;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.reactOrgChart::-webkit-scrollbar-thumb:hover {
+  background: #40434b;
+}
+
+.top .nav-tabs {
+  /* border-bottom: 1px solid #4763a0; */
+  margin: 0 15px 10px;
+}
+
+.top .tab-content {
+  border-top: none;
+}
+
+i.fa.fa-power-off.fa-4x {
+  color: #FB404B;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  height: 15px;
+}
+
+.initechNode.value-success {
+  padding: 10px 0px !important;
+  margin-bottom: -5px;
+  border-radius: 4px;
+}
+
+.initechNode.value-danger {
+  padding: 10px 0px !important;
+  margin-bottom: -5px;
+  border-radius: 4px;
+}
+
+.initechNode .fa {
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.ReactTable .rt-table .ReactTable .pagination-bottom {
+  margin: 0px !important;
+}
+
+.Select-control.has-error {
+  color: red !important;
+  border-color: red !important;
+}
+
+.chartjs-render-monitor {
+  padding: 1.5rem 1.5rem;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  border-radius: 10px;
+}
+
+.card-footer button.btn-fill.pull-right {
+  margin: 0px 0px 0px 15px !important;
+}
+
+.equipment-range .form-control {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 580px) {
+
+  .top .nav-tabs,
+  .modal-content .nav-tabs,
+  .nav-tabs {
+    display: grid;
+  }
+}
+
+.full-page .card .footer.text-center {
+  position: relative;
+}
+
+.hideDiv.col-md-12 {
+  display: flex !important;
+  display: inline;
+}
+
+.rc-tree {
+  overflow: auto;
+  max-height: 75vh;
+  -ms-overflow-style: scrollbar;
+}
+
+.rc-tree::-webkit-scrollbar {
+  display: inline-block !important;
+  background-color: #bac3d6 !important;
+  margin-top: 10px !important;
+  height: 10px !important;
+  border-radius: 10px !important;
+}
+
+.rc-tree li .rc-tree-node-content-wrapper {
+  padding: 0px 3px 0px 0;
+  height: 23px;
+}
+
+.nav-open .navbar .container,
+.nav-open .main-panel,
+.nav-open .wrapper-full-page {
+  transform: 0;
+}
+.card-content.row {
+  margin-left: 0;
+}
+
+.modal-content .card-content.row {
+  margin-left: -15px !important;
+}
+
+.fast-inward {
+  position: relative;
+  width: 100px;
+  margin-bottom: 10px;
+  padding: 1px;
+  padding-right: 5px;
+  white-space: initial;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.fast-inward .image {
+  width: 100%;
+  height: 228px;
+  background: #eee;
+  float: left;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  display: inline-block;
+}
+
+.overlay .inner-text span {
+  color: #fff !important;
+  padding-top: 20px !important;
+}
+
+.fast-inward a span {
+  vertical-align: middle !important;
+  height: 100px;
+  width: 100px;
+  display: table-cell;
+}
+
+.overlay .fa {
+  display: inline-block;
+  background: #03A9F4;
+  color: #fff;
+  padding: 6px;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.fast-inward:hover .overlay {
+  height: 100%;
+}
+
+.test_plan {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.inner-text {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.modal-content .form-group li {
+  margin: 2px 2px 1px 2px;
+  background: #e6e6e6;
+  padding: 1px 0 2px 10px;
+  border-radius: 4px;
+  border-radius: 4px;
+  color: #0084bf;
+  list-style: circle;
+}
+.modal-content .customer button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  background: #2196F3;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.modal-content img.picture-src {
+  width: 100px;
+}
+
+/* .modal-open .modal ::-webkit-scrollbar {
+    display: none;
+    width: 0px !important;
+  } */
+.default-modal .section-header {
+  font-weight: bold;
+  margin: 10px -30px 10px -30px;
+}
+
+.labelName {
+  font-size: 12px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #000;
+  color: #444;
+}
+
+.ReactTable .rt-td {
+  word-break: break-all;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.ReactTable .rt-td:hover, .ReactTable .rt-td:focus {
+  overflow: visible;
+  white-space: normal;
+  height: auto;
+  cursor: default;
+}
+
+.ReactTable .rt-td {
+  padding: 2px 5px;
+}
+
+.ReactTable .form-control,
+.ReactTable .Select-control,
+.modal-content .ReactTable .form-control,
+.modal-content .ReactTable .Select-control{
+  height: 24px !important;
+}
+/* .modal-content .Select-control textarea{
+  height: auto;
+} */
+.ReactTable .input-group-addon, .modal-content .input-group-addon {
+  height: 10px !important;
+}
+.ReactTable .Select-placeholder,
+ .modal-content .Select-placeholder,
+.ReactTable .Select.has-value.is-clearable.Select--single>.Select-control .Select-value,
+.modal-content .Select.has-value.is-clearable.Select--single>.Select-control .Select-value {
+  line-height: 22px !important;
+}
+
+.ReactTable .Select--single>.Select-control .Select-value,
+.modal-content .Select--single>.Select-control .Select-value {
+
+  line-height: 28px !important;
+}
+.modal-content .input-group-addon{
+  padding: 0px 10px;
+}
+.ReactTable .input-group-addon:last-child,
+.ReactTable .input-group-addon:first-child,
+.input-group .form-control:not(:first-child):not(:last-child),
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child) {
+  line-height: 8px !important;
+  border: 1px solid #045e80;
+  padding: 0px 5px !important;
+}
+
+.input-group-addon:not(:first-child):not(:last-child){
+  border-radius: 0;
+  border-right: 1px solid rgb(181, 191, 204);
+}
+.ReactTable .Select-arrow-zone,
+.modal-content .Select-arrow-zone {
+  line-height: 24px;
+}
+
+.ReactTable input[type=checkbox],
+input[type=radio] {
+  height: 15px !important;
+}
+.tab-content .card-footer{
+  margin-bottom: 0px !important;
+  bottom: 0px;
+}
+.card .card-footer {
+  padding: 5px 0px;
+  z-index: 2;
+  position: sticky !important;
+  margin-bottom: -40px;
+  display: flow-root !important;
+  bottom: 30px;
+  display: inline-block;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.modal-content .card-content .card-footer {
+  padding: 5px 0;
+  z-index: 3;
+  position: sticky !important;
+  margin-bottom: -15px;
+  display: flow-root !important;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.ReactTable .rdtPicker table {
+  width: 100%;
+  margin: 0;
+}
+
+.ReactTable .checkbox,
+.radio {
+  margin-bottom: 0;
+}
+.ReactTable .form-group .input-group .Select.is-open {
+  /* z-index: 100000001 !important;
+  position: absolute !important;
+  margin-top: 2px !important; */
+}
+
+.ReactTable .rdt.rdtOpen {
+  position: inherit;
+}
+
+button.fa.fa-trash.btn.btn-default {
+  padding: 5px 22px 5px 10px;
+  margin: 5px 0px;
+  color: white;
+  background: red;
+}
+
+.modal-footer .btn+.btn,
+.modal-footer .btn+.btn:hover {
+  margin-bottom: 0;
+  margin-left: 5px;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.ReactTable .form-control {
+  padding: 2px 5px !important;
+}
+
+.rbc-calendar {
+  padding: 15px;
+}
+
+.rbc-time-header.rbc-overflowing {
+  margin-right: 0px !important;
+}
+
+.ReactTable .input-group-addon .fa:hover {
+  font-size: 12px !important;
+  color: #fff !important;
+}
+
+.ReactTable .form-group .input-group .Select-control {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  border-radius: 4px;
+}
+.modal-content .card-content.row {
+  margin-left: -15px;
+}
+
+/* @media (max-width:1024)*/
+@media (max-width:1024px) {
+
+  body,
+  .form-control,
+  .Select-control,
+  .footer .copyright,
+  .btn,
+  .dropdown-menu,
+  .ReactTable .rt-td {
+    font-size: 12px;
+  }
+
+  .card .form-group>label,
+  .ReactTable .rt-thead .rt-th,
+  .sidebar .nav p,
+  .card h6 {
+    font-size: 10px;
+  }
+
+  .btn .fa {
+    width: 15px;
+  }
+
+  .input-group-addon {
+    padding: 0px 2px;
+  }
+
+  .form-control,
+  .Select-control {
+    height: 24px !important;
+  }
+
+  .Select-placeholder,
+  .Select--single>.Select-control .Select-value {
+    line-height: 22px !important;
+  }
+
+  .card .card-footer {
+    margin: 0px -15px -20px 0;
+    padding: 5px 0px 5px 10px;
+  }
+
+  .card .form-group>label {
+    font-size: 11px;
+  }
+}
+
+.ReactTable .Select-placeholder {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+table {
+  position: relative;
+  width: 700px;
+  /* background-color: #aaa; */
+  overflow: hidden;
+  border-collapse: collapse;
+}
+
+button.fa.fa-download.btn.btn-default {
+  padding: 5px 8px !important;
+  width: 30px;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+/*Date Frequency*/
+.calendar {
+  padding: 10px 5px;
+  border-radius: 0.4rem;
+  margin: 0 -25px 5px 0;
+}
+
+.calendar .sc-bdVaJa.coWVFC {
+  margin-left: -0.7rem;
+}
+
+.kTgmhB {
+  font-size: 1.6rem !important;
+  text-align: center;
+}
+
+.ehJGSP,
+.cnwxhk {
+  line-height: 1.2em;
+}
+.login-page .card a:hover {
+  font-weight: 600;
+}
+.ReactTable .input-group .rdt.rdtOpen .rdtPicker {
+  margin-top: 25px;
+  right: -15px;
+}
+
+.Select-menu,
+.Select-menu-outer {
+  scrollbar-width: 10px;
+}
+
+.ReactTable .rt-tbody {
+  overflow: visible;
+}
+
+.modal-footer {
+  margin-bottom: -5px;
+}
+.col-md-12 .btn-group {
+  padding: 0 15px;
+}
+
+.ReactTable .Select-menu {
+  max-height: 145px;
+}
+
+.ReactTable .rdt {
+  position: relative !important;
+}
+.radio {
+  margin-bottom: 10px;
+}
+
+@media(max-width:768px) {
+  .card .content .tab-content .list-header .pull-right .btn.btn-default, .card .content .list-header .pull-right {
+    float: left !important;
+    left: 0%;
+    margin-bottom: 2px;
+  }
+
+  .dropdown-menu>li>a .fa {
+    padding-top: 0px;
+  }
+  .card .content{
+    margin-bottom: -5px;
+  }
+  .kTgmhB{
+    font-size: 1rem !important;
+  }
+}
+
+.actions-right button.btn-list.btn.btn-danger {
+  margin-right: 4px !important;
+  /* margin-top: -4px !important; */
+}
+
+.actions-right span.fa.fa-trash.text-danger {
+  margin-right: 0px !important;
+}
+
+.ReactTable .rdtPicker:before,
+.ReactTable .rdtPicker:after {
+  right: 12px !important;
+  left: auto !important;
+}
+
+.chart-line {
+  padding: 10px 10px !important;
+  border-radius: 4px;
+  width: 31.8%;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.checkList {
+  overflow-y: auto;
+  scrollbar-width: 10px !important;
+  max-height: 38vh;
+}
+
+.modal-content label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+}
+.preLoader {
+  background: #00000050;
+  height: auto;
+  position: fixed;
+  width: 5%;
+  z-index: 999999;
+  left: 50%;
+  top: 40%;
+}
+.preLoader img {
+  width: 80%;
+}
+.ReactTable img {
+  height: 35px !important;
+  width: 35px !important;
+  border-radius: 19px !important;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* Pre-loader */
+
+.checkbox.checkbox-inline{
+  padding-left: 0;
+  /* margin-bottom: 2px; */
+  padding-top: 5px;
+}
+table.orgNodeChildGroup {
+  width: auto;
+}
+
+/* .rdtPicker{
+  overflow: visible !important;
+  white-space: normal !important;
+  height: auto !important;
+  cursor: default !important;
+} */
+.graph{
+width: 85%;
+}
+.graph:nth-child(2n+1){
+  width: 80%;
+}
+.ReactTable .checkbox, .radio{
+  margin-top: 0;
+}
+/*--------------------------------------------------------------------*/
+@media(max-width:600px){
+  .rbc-btn-group {
+    display: grid;
+    white-space: nowrap;
+}
+.rbc-toolbar .rbc-toolbar-label {
+  font-size: 15px !important;
+}
+.rbc-toolbar button {
+  padding: 5px 10px !important;
+  border-radius: 4px !important;
+  margin-bottom: 2px;
+}
+}
+/* Dashboard */
+rect:first-child{
+  /* x: 0;
+  y: 0; */
+  /* width: 530;
+  height: 300; */
+  /* fill: #ace36d; */
+  stroke: black;
+  stroke-width: 0;
+  padding: 10px;
+}
+div.titleStat {
+  /* box-shadow: 0px 0px 9px 1px #828282; */
+  margin: 15px 0;
+}
+label.titlegraph.control-label {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.revenue {
+  height: 250px;
+}
+@media (max-width:768px){
+.revenue {
+  height: auto;
+  overflow-y: auto;
+}
+}
+/* End Dashboard */
+/* Start Complaints */
+.smooth-dnd-container.horizontal {
+  white-space: nowrap;
+  overflow-x: auto;
+  width: 100%;
+}
+.eVDmWl {
+  max-height: calc(100vh - 125px);
+}
+.smooth-dnd-container.horizontal > .smooth-dnd-draggable-wrapper{
+  max-height:calc(100vh - 150px);
+  /* overflow: auto; */
+}
+  .ejtCpj {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    overflow-y: auto;
+    min-width: 250px;
+    overflow-x: hidden;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    max-height: calc(100vh - 200px);
+    padding-bottom: 0px;
+    /* margin-top: 10px; */
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+.bPacrc {
+  z-index: 1;
+  padding: 2px 5px;
+  margin-bottom: 0px;
+  background: white;
+  border-radius: 4px;
+  color: #2766a6;
+  /* position: sticky;
+  top: 0;
+  border-bottom: 2px solid #2196F3; */
+}
+.bsakmj {
+  padding-bottom: 0px;
+  overflow: auto;
+  max-width: calc(100vh - 200px);
+}
+/* END Complaints */
+.modal-content .tab-content .table>tbody>tr>td{
+  border-bottom: 1px solid #ddd;
+  border-top: none;
+  padding: 5px;
+}
+.modal-content .tab-content .table>tbody>tr>td .checkbox.checkbox-inline{
+  padding-top: 0px;
+}
+.modal-content .tab-content .table{
+  margin-bottom: 0px;
+}
+.react-datepicker-popper {
+  z-index: 9999 !important;
+  position: absolute !important;
+}
+.checkbox-inline, .radio-inline{
+  margin-bottom: 0 !important;
+}
+/* Live Tracking */
+.live-location {
+  background: #ffffff;
+  margin-left: 15px;
+  margin-right: -15px;
+}
+.live-location span a {
+  background: #295e94;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin: 5px !important;
+}
+.live-location a:hover, .live-location a:focus, .live-location a:active{
+  color: #fff !important;
+}
+.tracking-left {
+  border: 1px solid #8bc34a !important;
+  background: #8bc34a;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 0;
+  color: #008000;
+  display: flex;
+  margin: 0px -25px 15px;
+}
+.tracking-left-off{
+  border: 1px solid #ea0000 !important;
+  background: #ea0000;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 0;
+  color: #ddd;
+  display: flex;
+  margin: 0px -25px 15px;
+}
+.live-location .fa-map-marker {
+  color: orange;
+}
+.live-location .fa-clock-o{
+    color: #d80000;
+}
+.tracking-left i.fa-tachometer {
+    color: #008000;
+}
+.tracking-left i.fa-truck {
+  color: #008000;
+}
+.tracking-left-off .fa-toggle-off{
+  color: #ddd !important;
+}
+  .location {
+    background: #ffffff;
+    padding-top: 5px;
+    border-bottom: 1px solid #000;
+    margin: -20px 0px 0px 15px;
+}
+.tracking-left .fa, .tracking-left-off .fa {
+  margin: 0 5px 0 5px;
+  font-size: 20px !important;
+}
+.tracking-left div,.tracking-left-off div {
+  font-size: 14px !important;
+  float: right;
+}
+.tracking-right {
+  margin: -15px -20px 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  overflow: hidden;
+}
+.tracking-right:hover {
+  margin: -15px -20px 15px;
+  white-space: normal;
+  cursor: default;
+}
+.tracking-left div {
+  font-size: 12px;
+}
+.live-tracking {
+  overflow-y: auto;
+}
+/* .location {
+  background: #fff;
+  margin-top: -20px;
+  margin-left: 15px;
+}
+.tracking-left {
+  display: inline-flex;
+} */
+/* Live Tracking */
+.checkbox input[type="checkbox"]:disabled + label, .radio input[type="radio"]:disabled + label, .checkbox input[type="checkbox"]:disabled:checked + label::after {
+  color: #a2a2a2;
+}
+.form-control{
+  padding: 0px 10px !important;
+}
+.input-group .form-control:last-child{
+  border-left: 1px solid #8bc34a;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.ps__rail-y{
+  width: 0px !important;
+}
+.react-switch-bg {
+  white-space: nowrap;
+}
+.card .edge {
+  width: 100% !important;
+ }
+ .text-danger.form-control[disabled],
+ .value-danger.form-control[disabled] {
+  background-color: #fc4a3c !important;
+  color: #fff !important;
+  border-color: #fc4a3c !important;
+}
+
+.text-success.form-control[disabled],
+.value-success.form-control[disabled] {
+  background-color: #8BC34A !important;
+  color: #fff !important;
+  border-color: #8BC34A !important;
+}
+
+.text-warning.form-control[disabled],
+.value-warning.form-control[disabled] {
+  background-color: #ffbf00 !important;
+  color: #fff !important;
+  border-color: #ffbf00 !important;
+}
+/* Fixed Column start */
+.ReactTable .rt-thead .rt-th:first-child {
+  position: sticky !important;
+  left: 0 !important;
+  z-index: 1;
+  max-height: 100%;
+}
+.ReactTable .rt-thead .rt-th:last-child {
+  position: sticky;
+  right: 0 !important;
+  z-index: 1;
+  padding: 0px 8px;
+  padding: 20px 0;
+  max-height: 100%;
+}
+.ReactTable .ReactTable .rt-thead.-headerGroups .rt-th:last-child{
+  padding: 0px 8px;
+}
+.ReactTable .rt-td:first-child {
+  position: sticky;
+  left: 0;
+  margin: 0;
+  z-index: 1;
+  max-height: 100%;
+  padding: 5px;
+}
+.ReactTable .rt-td:last-child {
+  position: sticky;
+  right: 0;
+  margin: 0;
+  z-index: 1;
+  max-height: 100%;
+}
+
+.ReactTable .actions-right {
+  text-align: right;
+  margin-top: 2px !important;
+}
+.ReactTable .rt-expander{
+  margin: 5px 10px;
+}
+
+button.btn-fill.btn-simple.btn-wd.btn.btn-info {
+  margin-right: 10px;
+}
+@media (max-width: 409px) {
+  button.btn-fill.btn-simple.btn-wd.btn.btn-info{
+    margin-right: 0px !important;
+    margin-bottom: 5px;
+  }
+  button.btn.btn-default {
+    width: 70%;
+    border: 1px solid #000 !important;
+    border-radius: 4px !important;
+    margin-bottom: 2px;
+}
+.rbc-header {
+  font-size: 6px;
+}
+}
+.card .card-form .card-footer .btn-primary{
+  margin-top: 0px !important;
+}
+/* .rc-tree li span.rc-tree-iconEle{
+  background-image:url(../img/dicipline.png) !important;
+  width: 20px !important;
+}
+*/
+.rt-tbody .rt-thead{
+  z-index: 1;
+}
+.modal-body button.btn-icon.btn.btn-success {
+  margin-right: 10px;
+}
+@media (max-width: 409px){
+.actions-right button.btn.btn-default {
+    width: auto;
+     border: none !important;
+    }
+  }
+  .calender-modal__reason {
+    height: auto !important;
+  }
+
+#limheight {
+  /* height: 300px; your fixed height */
+  -webkit-column-count: 3;
+      -moz-column-count: 3;
+          column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+
+#limheight li {
+    display: inline-block; /*necessary*/
+    margin-right: 10px;
+}
+.ReactTable .rt-resizer{
+  right: 0;
+}
+.card h6 {
+  font-size: 12px;
+  margin: 0px;
+  z-index: 2 !important;
+  position: relative;
+  font-weight: 600;
+  cursor: default;
+}
+.card .actionMar h6 {
+  padding-top: 10px;
+  margin-bottom: -10px !important;
+  margin: 0;
+}
+.sidebar .sidebar-wrapper > .nav {
+  margin-top: 10px;
+}
+.ps__rail-y:hover > .ps__thumb-y, .ps__rail-y:focus > .ps__thumb-y{
+  width: 8px;
+}
+
+.ReactTable .rt-thead .rt-resizable-header:last-child {
+  overflow: hidden;
+  padding: 5px 8px !important;
+  margin: 0;
+}
+.form-right {
+  overflow: auto;
+  max-height: 75vh;
+  height: 75vh;
+  /* background: #ddd; */
+}
+.form-right .ReactTable{
+  max-height: 100%;
+}
+.form-right .card-footer{
+  bottom: 0 !important;
+}
+.form-right.col-lg-9 {
+  width: 74%;
+}
+.react-table-subcomponent .ReactTable .rt-td:first-child,.react-table-subcomponent .ReactTable .rt-td:last-child,.react-table-subcomponent .ReactTable .rt-thead .rt-th:first-child, .react-table-subcomponent .ReactTable .rt-thead .rt-th:last-child,
+.ReactTable .ReactTable .rt-td:first-child,.ReactTable .ReactTable .rt-td:last-child,.ReactTable .ReactTable .rt-thead .rt-th:first-child, .ReactTable .ReactTable .rt-thead .rt-th:last-child{
+  position: relative !important;
+  background: none !important;
+}
+.ReactTable .rt-th, .ReactTable .rt-td{
+  margin: auto 0;
+}
+
+/* TREE TABLE */
+
+.cp_tree-table {
+  font-size: 14px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  display: inline;
+}
+
+/* Cells */
+
+.cp_tree-table .cp_tree-table_cell,
+.cp_tree-table .cp_tree-table_header-cell {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* Index cell  */
+
+.cp_tree-table .cp_tree-table_cell .toggle-button {
+  position: relative;
+  display: inline-block;
+  border: none;
+  height: 14px;
+  vertical-align: middle;
+  padding: 0 5px 0 0;
+  margin: 0;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+}
+
+.cp_tree-table .cp_tree-table_cell .toggle-button::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #040402 transparent transparent transparent;
+  padding: 0;
+  vertical-align: middle;
+}
+.cp_tree-table .cp_tree-table_cell .toggle-button
+.cp_tree-table .cp_tree-table_cell .toggle-button+span {
+  vertical-align: middle;
+}
+
+.cp_tree-table .cp_tree-table_cell>.without-children>span {
+  padding-left: 15px;
+}
+
+.cp_tree-table .cp_tree-table_cell>.with-children>span {
+  font-weight: 600;
+}
+
+.cp_tree-table .cp_tree-table_cell .toggle-button::after{
+  height: 12px;
+}
+.cp_tree-table_cell .checkbox, .radio {
+  margin-bottom: 12px;
+  margin-top: 15px;
+}
+/* .cp_tree-table_viewport {
+  max-height: 50vh !important;
+} */
+.login-page .input-group-addon:last-child {
+  background: #000;
+  border: 1px solid #000 !important;
+}
+.cp_tree-table_cell .form-control {
+  height: 20px !important;
+  line-height: 1;
+  margin-top: 4px !important;
+}
+.tab-content .checkbox.checkbox-inline {
+  margin-top: 0;
+}
+.nav-tabs>li {
+  float: left;
+  margin-bottom: -1px;
+  text-align: left;
+}
+/* .reactgooglegraph{
+  height: 800px !important;
+} */
+.rbc-label {
+  padding: 0 10px;
+}

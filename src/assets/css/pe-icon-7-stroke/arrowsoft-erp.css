@@ -1,0 +1,1724 @@
+.Select-menu-outer {
+  z-index: 9999;
+}
+
+.pagination>.ul {
+  padding: 15px;
+}
+
+.main-panel .main-content {
+  padding: 15px 15px;
+}
+
+.picture-container {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.picture-src {
+  height: 100%;
+}
+
+.picture-container {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.picture {
+  width: 10vw;
+  height: 10vw;
+  background-color: #FFFFFF;
+  /* border: 1px solid #E3E3E3; */
+  color: #FFFFFF;
+  /* border-radius: 50%; */
+  margin: 0px auto 10px auto;
+  overflow: hidden;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+
+/*css for signature*/
+
+.signature-container {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.signature {
+  width: 15vw;
+  height: 4vw;
+  background-color: #FFFFFF;
+  border: 1px solid #E3E3E3;
+  color: #FFFFFF;
+  /* border-radius: 50%; */
+  margin: 0px auto 10px auto;
+  overflow: hidden;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+
+.signature-src {
+  height: 100%;
+}
+
+
+
+.picture input[type="file"] {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0 !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.parent-picture-src {
+  height: 10vw;
+  position: relative;
+  /* img:src="../img/carousel_1.jpg"
+  background:url(../img/carousel_3.jpg) */
+}
+
+.picture-src {
+  max-height: 100%;
+  max-width: 100%;
+  border: 1px solid #E3E3E3;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.user-img {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.product-img {
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.service-img {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.customer-img {
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.edit-listpanel {
+  cursor: pointer;
+  margin: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: grey;
+}
+
+.edit-listpanel-active {
+  cursor: pointer;
+  margin: 15px;
+  /* font-size: 16px; */
+  font-weight: bold;
+  color: blue;
+}
+
+.rt-resizable-header-content {
+  color: black;
+  font-weight: bold;
+}
+
+.card .category,
+.card .form-group>label {
+  font-weight: bold;
+}
+
+.section-header {
+  border-bottom: 1px solid blue;
+  margin-bottom: 20px;
+  color: blue;
+
+}
+
+.parent-square-image {
+  height: 142px;
+  width: 187px;
+  overflow: hidden;
+  margin: 10px auto 5px auto;
+}
+
+.rbc-today {
+  background: #9ed9f7;
+}
+
+.qrcode-position {
+  text-align: center;
+  margin-left: 4vw;
+}
+
+.nav-tabs>li {
+  font-size: 80%;
+  font-weight: inherit;
+
+}
+
+.nav-tabs>li>a .fa {
+  font-size: 80%;
+  font-weight: inherit;
+
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  color: blue;
+  background: transparent;
+  border: 0px;
+  border-bottom: 3px solid blue;
+
+}
+
+a {
+  color: blue;
+}
+
+.ReactTable .rt-thead .rt-th:last-child {
+  text-align: left;
+
+
+}
+
+.picture-container {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+
+.square-image {
+  height: 170px;
+}
+
+.square-image:hover {
+  border-color: #2ca8ff;
+}
+
+.square-image input[type="file"] {
+  cursor: pointer;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0 !important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.parent-square-image {
+  height: 149px !important;
+  width: 170px;
+  overflow: hidden;
+  margin: 10px auto 5px auto;
+}
+
+.picture-src {
+  height: 100%;
+}
+
+/* .btn.btn-icon {
+  padding: 8px;
+  margin-right: 10px;
+} */
+
+.btn {
+  margin: 5px;
+}
+
+.margintop5 {
+  margin-top: 22px
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.hideDiv {
+  display: none;
+}
+
+.uploadButton {
+  width: 100%;
+  min-height: 10vh;
+  border-color: grey;
+  border-width: 2px;
+  background-color: lightgrey;
+  border-style: dashed;
+}
+
+.ReactTable .rt-thead .rt-th {
+
+
+  color: black;
+  font-weight: bold;
+}
+
+
+.table1 {
+  /* border: 2px solid #2b2b2b; */
+  width: 20% !important;
+}
+
+.bn1 {
+  border-top: 0px !important;
+}
+
+.p11 {
+  margin-top: 11PX;
+}
+
+.p21 {
+  /* font-size: 12px!important; */
+  line-height: 0.5 !important;
+  text-align: center;
+}
+
+.p1 {
+  /* font-size: 13px!important; */
+  line-height: 0.5 !important;
+}
+
+.p31 {
+  /* font-size: 13px!important; */
+  line-height: 0.5 !important;
+  margin-top: 10px;
+}
+
+b {
+  font-weight: 508;
+  font-size: 12px;
+}
+
+#mgtop {
+  margin-top: 35px;
+}
+
+#mg5 {
+  margin-top: 10px;
+}
+
+.mgspan {
+  margin-left: 15px;
+}
+
+.mg {
+  margin-bottom: 30px;
+}
+
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+
+}
+
+.table>tbody>tr {
+  position: relative;
+  /* border: 2px solid #d2c8c8; */
+}
+
+.table>thead>tr>th,
+.table>tbody>tr>th,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+  padding: 0px 5px;
+  vertical-align: middle;
+  /* font-size:13px; */
+  border-top: 0px solid #ddd !important;
+}
+
+#purchasehieght {
+  height: 1000px;
+}
+
+.card1 {
+
+  height: 1200px;
+}
+
+.createby {
+  margin-top: 30px;
+}
+
+.label2 {
+  margin-top: 10px;
+}
+
+
+.model4 {
+  width: 900px;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 6px;
+  outline: 0;
+  /* -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5); */
+  box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+  /* width: 710px; */
+}
+
+.cardModal {
+  display: flow-root;
+}
+
+.marigntop {
+  margin-bottom: 8px;
+}
+
+h5,
+.h5 {
+  /* font-size: 13px; */
+  margin-bottom: 5px;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 0px !important;
+}
+
+.border1 {
+  border: 0px solid #fff !important;
+}
+
+.border2 {
+  border-top: 35px solid #fff !important;
+}
+
+hr {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border: 0;
+  border-top: 1px solid #4a3939 !important;
+  width: 100%;
+}
+
+.tableTopmg2 {
+  margin-top: -29px;
+}
+
+#hrLine {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border: 0;
+  border-top: 1px solid #4a3939 !important;
+  width: 250%;
+
+}
+
+#hrLine1 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  border: 0;
+  border-top: 1px solid #4a3939 !important;
+  width: 115%;
+
+}
+
+.invoice-label {
+  font-weight: bold;
+  border-left: 1px solid black;
+  border-right: 1px solid black
+}
+
+.invoice-label1 {
+  font-weight: bold;
+  border-left: 1px solid #bfb2b2;
+  border-right: 1px solid #bfb2b2
+}
+
+/* .invoice-table {  margin-top: 10px;  margin-bottom: 10px;  font-size: "11px"}.invoice-table > tbody > tr > td, th {  padding-left: 5px;  padding-right: 5px;  padding-top: 5px;  padding-bottom: 5px;} */
+.modal-header1 {
+  padding: 1px !important;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.card .form-group>label {
+  /* font-size: 12px !important; */
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+
+
+.small-modal {
+  width: 900px !important;
+}
+
+@media screen and (min-width:640px) and (max-width:1400px) {
+
+  /* .large-modal {
+    width: 720px !important;
+  } */
+  .card .form-group>label {
+    /* font-size: 12px; */
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width:1200px) {
+  .col-md-10 {
+    width: 100.333333% !important;
+  }
+}
+
+
+.ReactTable .rt-td .value-danger {
+  background-color: #fb404b;
+  margin: -7px -6px !important;
+  padding: 10px 6px !important;
+}
+
+.ReactTable .rt-td .value-success {
+  background-color: #87cb16;
+  margin: -7px -6px !important;
+  padding: 10px 6px !important;
+}
+
+.ReactTable .rt-td .value-warning {
+  background-color: #ffbf00;
+  margin: -7px -6px !important;
+  padding: 10px 6px !important;
+}
+
+.tab-content .ReactTable .rt-td .value-success,
+.tab-content .ReactTable .rt-td .value-warning,
+.tab-content .ReactTable .rt-td .value-danger {
+  margin: 0px -6px !important;
+  padding: 10px 5px !important;
+}
+
+.value-danger {
+  background-color: #fb404b;
+}
+
+.value-success {
+  background-color: #87cb16;
+}
+
+.value-warning {
+  background-color: #ffbf00;
+}
+
+@media (max-width:992px) {
+  .request-progress li:after {
+    width: 67% !important;
+  }
+}
+
+
+@media (max-width: 880px) {
+  .request-progress li:after {
+    width: 58% !important;
+  }
+}
+
+@media (max-width:992px) {
+  .request-progress li:after {
+    width: 55% !important;
+  }
+}
+
+@media (max-width:1440px) {
+  .request-progress li:after {
+    width: 76% !important;
+  }
+}
+
+@media only screen and (min-width:2000px) and (max-width:2559px) {
+  .request-progress li:after {
+    width: 82% !important;
+  }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1439px) {
+  .request-progress li:after {
+    width: 67% !important;
+  }
+}
+
+@media only screen and (min-width:1050px) and (max-width:1199px) {
+  .request-progress li:after {
+    width: 63% !important;
+  }
+}
+
+@media (max-width:2100px) {
+  .request-progress li:after {
+    width: 79%;
+  }
+}
+
+@media (width: 2640px) {
+  .request-progress li:after {
+    width: 83%;
+  }
+}
+
+@media (width: 2560px) {
+  .request-progress li:after {
+    width: 87%;
+  }
+}
+
+
+
+/*csss changes 29-3-2019 */
+/* .login-page .card {
+background: #ffffff22;
+} */
+.login-page .card .btn-wd:hover {
+  background: #8cc64b;
+  border: #8cc64b;
+  color: rgb(6, 54, 103);
+}
+
+.login-page .card .header {
+  padding: 70px 0px 0px 0;
+}
+
+.login-page .card .header h4 {
+  color: #4b5fc6;
+  /* font-size: 20px; */
+}
+
+.login-page .card {
+  background-color: rgba(138, 178, 216, 0.65);
+  padding-top: 5px;
+  padding-bottom: 12%;
+  overflow: hidden;
+}
+
+.login-page .card {
+  background-image: url(../img/ERP_Arrowsoft.png) !important;
+  background-repeat: no-repeat;
+  background-position: center 5%;
+  background-size: 35%;
+}
+
+.login-page .card .content {
+  padding: 5px 15px 0px 15px;
+  position: relative;
+}
+
+.login-page .form-group {
+  margin-bottom: 10px;
+}
+
+.Select-placeholder,
+.Select--single>.Select-control .Select-value {
+  line-height: 28px;
+}
+
+.full-page:before {
+  opacity: 1;
+  background: #b1a43a00 !important;
+}
+
+.full-page:after {
+  background: #00000036 !important;
+  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b1a43a00), color-stop(100%, #b1a43a00)); */
+  /* background: -webkit-linear-gradient(top, #b1a43a00 0%, #b1a43a00 100%); */
+  background: -o-linear-gradient(top, #b1a43a00 0%, #b1a43a00 100%);
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#b1a43a00), to #b1a43a00)); */
+  /* background: linear-gradient(to bottom, #b1a43a00 0%, #b1a43a00 100%); */
+  /* background-size: 150% 150%; */
+  z-index: 3;
+  opacity: 1;
+}
+
+body,
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+.alert,
+a,
+.td-name,
+td,
+button.close {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif !important;
+  /* font-weight: inherit;
+font-size: 112%; */
+
+}
+
+.modal-header1 {
+  padding: 1px !important;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.small-modal {
+  width: 900px !important;
+}
+
+
+/* THEME TESTING ERP*/
+textarea.form-control {
+  height: 35px;
+  line-height: 20px;
+}
+
+.edit-link {
+  color: #73a937;
+}
+
+.wrapper {
+  background: url(../img/main-bg.jpg);
+  background-size: cover;
+  min-height: calc(100vh - 136px);
+  opacity: 1.5 !important;
+}
+
+.wrapper:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  background-color: rgba(146, 146, 146, 0.47);
+}
+
+/* .wrapper ::-webkit-scrollbar {  
+ 
+}   */
+.main-panel .main-content .row .col-md-6 .card .content {
+  max-height: calc(24vh);
+  overflow-y: auto;
+}
+
+.main-panel .main-content {
+  padding: 100px 5px;
+  max-height: calc(100vh - 136px);
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+  overflow-x: hidden !important;
+}
+
+/* .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  color: #fff !important ;
+  border-bottom: 3px solid #73a937 !important ;
+  background: #4b72c5;
+} */
+a {
+  color: #4b72c5;
+}
+
+a:hover,
+a:focus {
+  color: #53ec2f !important;
+  text-decoration: none;
+}
+
+/* Start ProgressBar */
+.request-progress {
+  counter-reset: step;
+}
+
+.request-progress li {
+  list-style-type: none;
+  float: left;
+  width: 10%;
+  font-size: smaller;
+  position: relative;
+  text-align: center;
+}
+
+.request-progress li {
+  width: 16%;
+}
+
+.request-progress {
+  display: inline-block;
+  width: 100%;
+  background: #73a9373d;
+  padding: 15px 0;
+}
+
+.request-progress li:before {
+  background-color: #73a937;
+  color: #fff;
+  content: "\f0d1";
+  font-family: 'FontAwesome';
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.request-progress li:after {
+  width: 85%;
+  background-color: #73a937;
+}
+
+.progress {
+  background-color: #ffffff;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 15px;
+  margin-bottom: 0px;
+}
+
+
+.request-progress li.active {
+  color: green;
+}
+
+.request-progress li {
+  width: 16%;
+}
+
+.request-progress li:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 80%;
+  background-color: #ddd;
+  top: 15px;
+  left: calc(-50% + 15px);
+  /* z-index: -1; */
+}
+
+.request-progress li:first-child::after {
+  content: none;
+}
+
+.request-progress li.active {
+  color: green;
+}
+
+.request-progress li.active:before {
+  background-color: green;
+  border-color: green;
+  color: white;
+}
+
+.request-progress li.active+li:after {
+  background-color: green;
+}
+
+.progress {
+  background-color: #ffffff;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 15px;
+  margin-bottom: 0px;
+}
+
+.request-progress li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 0 auto 5px auto;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.request-progress li:before {
+  background-color: #73a937;
+  color: #fff;
+  content: "\F0D1";
+  font-family: 'FontAwesome';
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.actions-right .fa {
+  color: #002d8c;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 3px;
+  text-align: center;
+  /* margin-left: 4px; */
+  width: 22px;
+  border: 1px solid #96969652;
+}
+
+/*ReactTable */
+.ReactTable .-pagination {
+  float: right;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 40px;
+}
+
+.ReactTable .-pagination .-next {
+  text-align: center;
+  width: 15%;
+  margin-right: 0;
+}
+
+.ReactTable .-pagination {
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.ReactTable .-pagination .-center {
+  -ms-flex: none;
+  flex: none;
+  margin-top: 0px;
+  margin-left: 0;
+}
+
+.pagination-bottom {
+  border-top: 1px solid #002d8c !important;
+  margin-top: 5px;
+  padding-top: 5px;
+  bottom: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  background: #d5e1ee;
+  margin: 5px -15px -15px -15px;
+}
+
+/*PAGINATION*/
+.ReactTable .-pagination .-previous .-btn:before {
+  content: "\f100";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  color: #000;
+  font-size: 18px;
+  padding-right: 0.5em;
+  /* position: absolute; */
+  top: 10px;
+  left: 0;
+}
+
+.request-progress li:before {
+  background-color: #73a937;
+  color: #fff;
+  /* content: "\F0D1"; */
+  font-family: 'FontAwesome';
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.ReactTable .-pagination .-next .-btn:before {
+  content: "\f101";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #000;
+  font-size: 18px;
+  padding-right: 0.5em;
+  top: 10px;
+  left: 0;
+}
+
+.ReactTable .-pagination .-btn {
+  color: #ffffff00;
+  width: 35px;
+  background: #ffffff00;
+
+}
+
+.ReactTable .-pagination .-btn:not([disabled]):hover {
+  background: rgba(0, 0, 0, 0);
+  color: #fff0;
+}
+
+.ReactTable .-pagination input,
+.ReactTable .-pagination input:focus {
+  width: 100%;
+  padding-left: 0;
+}
+
+.ReactTable .-pagination .-pageJump {
+  display: inline-block;
+  width: 30%;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  display: contents;
+}
+
+/*PAGINATION*/
+.ReactTable .-pagination {
+  float: right;
+}
+
+.ReactTable .-pagination .-btn {
+  width: 40px;
+}
+
+.ReactTable .-pagination .-next {
+  text-align: center;
+  width: 15%;
+  margin-right: 0;
+}
+
+.ReactTable .-pagination {
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 2px;
+}
+
+.ReactTable .-pagination .-center {
+  -ms-flex: none;
+  flex: none;
+  margin-top: 0px;
+  margin-left: 0;
+}
+
+.pagination-bottom {
+  border-top: 1px solid #002d8c !important;
+  margin-top: 5px;
+  padding-top: 5px;
+  bottom: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  background: #d5e1ee;
+  margin: 5px -15px -15px -15px;
+}
+
+.ReactTable .-pagination .-center {
+  flex: none;
+  margin-top: -3px;
+  float: left;
+}
+
+.ReactTable .-pagination input,
+.ReactTable .-pagination input:focus {
+  width: 30%;
+  background: #002d8cc9;
+  color: #fff;
+  padding-left: 0px;
+}
+
+.ReactTable .-pagination .-pageJump {
+  display: contents;
+}
+
+.ReactTable .-pagination .-pageInfo {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.ReactTable .-pagination select {
+  border: 1px solid #002d8c;
+  color: #002d8c;
+  height: 34px;
+}
+
+@media(max-width:1024px) {
+  .ReactTable .-pagination .-btn {
+    width: 100%;
+  }
+}
+
+/*Footer*/
+.footer-transparent {
+  background-color: transparent !important;
+}
+
+.card .card-footer {
+  z-index: -1;
+}
+
+.card .card-footer {
+  padding-bottom: 0;
+}
+
+.fa {
+  /* display: inline-block; */
+  font: normal normal normal 16px/1 FontAwesome !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.full-page .footer {
+  position: fixed !important;
+}
+
+.full-page .footer .copyright {
+  color: #fff;
+}
+
+.full-page .footer .container .copyright a {
+  color: #99ff28 !important;
+
+}
+
+
+@media(max-width:992px) {
+  .full-page .footer {
+    position: fixed !important;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1c446b;
+  }
+}
+
+.footer {
+  position: sticky !important;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1c446b;
+}
+
+
+
+#root .wrapper .main-panel .footer {
+  background: #043c73 !important;
+}
+
+.main-panel>.footer {
+  border-top: 1px solid #012b54;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #11010b;
+}
+
+.footer .copyright {
+  color: #fff;
+  padding: 0;
+  margin: 3px 3px;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.footer .container-fluid .copyright a {
+  color: #73a937 !important;
+}
+
+.card .card-footer {
+  margin-top: 0;
+  bottom: -15px;
+  padding: 0 15px;
+  border-top: 2px solid;
+}
+
+.footer-transparent {
+  background-color: transparent !important;
+}
+
+.off-canvas-sidebar #root .wrapper .main-panel .Main-footer {
+  z-index: 10000 !important;
+  position: fixed !important;
+  background: #1c3a6f !important;
+}
+
+.login-page .footer .legend a {
+  color: #fff;
+}
+
+.card-content.row .card-footer>.col-xs-12 {
+  padding: 0;
+}
+
+#root .wrapper .main-panel .footer {
+  z-index: 10;
+}
+
+@media (max-width:1349px) and (min-width:993px) {
+  #root .wrapper .main-panel .footer {
+    position: relative !important;
+  }
+}
+
+#root .wrapper .main-panel .card.card-stats .footer {
+  position: relative;
+  text-align: center;
+  padding: 3px;
+  background: #cecece !important;
+}
+
+.card.card-stats .footer .stats {
+  color: #000;
+  font-weight: 900;
+  font-size: 13px;
+  font-family: initial;
+}
+
+.card .Bom {
+  display: inline-block;
+  width: 100%;
+}
+
+
+.main-panel .main-content .row .col-md-6 .card .content {
+  max-height: calc(70vh) !important;
+}
+
+.main-panel .main-content .row .col-md-6 .card .content {
+  max-height: calc(24vh);
+  overflow-y: auto;
+}
+
+#root .wrapper .main-panel .footer {
+  position: relative;
+  z-index: 1 !important;
+  background: #cecece !important;
+  padding-bottom: 0;
+}
+
+.card .ct-chart {
+  margin: 30px 0 30px;
+  height: 245px;
+}
+
+.card .content {
+  padding-bottom: 0;
+}
+
+.card .content {
+  padding: 15px;
+}
+
+.card h6 {
+  font-size: 12px;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px !important;
+}
+
+.main-panel .main-content {
+  padding-top: 18px !important;
+  padding-bottom: 10px !important;
+}
+
+/*ReactTable*/
+.ReactTable .rt-thead {
+  background-color: #4b72c5 !important;
+}
+
+.rt-resizable-header-content {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.card .category,
+.card .form-group>label {
+  font-weight: bold;
+  color: #040404;
+  font-size: 13px;
+}
+
+.card {
+
+  margin-bottom: 30px !important;
+}
+
+.DashBoard .row {
+  padding: 0 15px;
+}
+
+.card {
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(63, 63, 68, 0.1);
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.actionMar .btn-fill {
+  margin-top: -3px;
+}
+
+.form-control {
+  padding: 4px 8px !important;
+  height: 30px !important;
+}
+
+/* .Select-placeholder, .Select--single > .Select-control .Select-value {  height: 22px !important;} */
+/* .Select, .Select div, .Select input {  height: 30px !important;}
+  .Select-menu-outer{  z-index: 9999;}.Select-arrow {  top: 0px !important;} */
+.card-form {
+  display: inline-block;
+  width: 100% !important;
+}
+
+.modal-content {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.tab-content .ReactTable .rt-tr {
+  display: inline-flex;
+
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+
+#qrcode1 {
+  text-align: center !important;
+
+}
+
+.large-modal {
+  width: 95% !important;
+}
+
+@media(max-width:768px) {
+  .large-modal {
+    width: 70% !important;
+  }
+}
+
+label {
+
+  font-size: 12px !important;
+}
+
+textarea.form-control {
+  height: 35px !important;
+  line-height: 20px;
+}
+
+.modal-backdrop.in {
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+.card .form-group>label {
+  font-size: 10px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+@media (max-width:1200px) {
+  .col-md-10 {
+    width: 100.333333% !important;
+  }
+}
+
+.Select-is-searchable>.Select-control {
+  z-index: 999;
+  position: absolute;
+}
+
+.modal-body .input-group .form-control:first-child {
+  border-radius: 4px;
+  border: 1px solid #73a9375c;
+}
+
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 600px;
+    margin: 100px auto;
+  }
+}
+
+.modal-content .modal-body .sweet-alert {
+  max-height: initial;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-nav>li>a:not(.btn) {
+  color: #9A9A9A;
+}
+
+.Select-placeholder,
+.Select--single>.Select-control .Select-value {
+  line-height: 30px;
+}
+
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected,
+textarea:-internal-autofill-previewed,
+textarea:-internal-autofill-selected,
+select:-internal-autofill-previewed,
+select:-internal-autofill-selected {
+  background-color: #73a937 !important;
+  background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+
+
+.form-control {
+  height: 30px;
+  border: 1px solid #73a9375c;
+  line-height: 30;
+  font-size: 100%;
+  font-weight: inherit;
+}
+
+.Select-control {
+  height: 30px !important;
+  border: 1px solid #73a937;
+  display: inherit;
+}
+
+.Select-placeholder {
+  line-height: 30px !important;
+}
+
+.form-control:focus {
+  border-color: #73a937;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #a7c3ff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px #a7c3ff;
+}
+
+.Select-control:focus {
+  border: 1px solid #73a937 !important;
+}
+
+.Select-arrow-zone {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  text-align: center;
+  width: 25px;
+  padding-right: 5px;
+  float: right;
+  padding-top: 5px;
+}
+
+.Select-arrow {
+  border-color: #999 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 2.5px;
+  display: inline-block;
+  border-color: #4b72c5 transparent transparent !important;
+}
+
+.card.card-stats .footer .stats {
+  font-size: 11px !important;
+}
+
+@media (min-width: 992px) {
+  .col-md-9 {
+    width: 83% !important;
+  }
+
+  .request-progress li {
+    width: 23%;
+  }
+}
+
+.ReactTable .rt-tr {
+
+  height: 41px !important;
+}
+
+.sidebar .nav i {
+  margin-top: 8px;
+}
+
+input[type=checkbox] {
+  margin-left: 20px !important;
+}
+
+.dropdown-with-icons [class^="fa"] {
+
+  margin-top: 8px !important;
+}
+
+.ReactTable .rt-th,
+.ReactTable .rt-td {
+  overflow: inherit !important;
+}
+
+.ReactTable .rt-tbody {
+  overflow: unset !important;
+
+}
+
+.ReactTable .rt-table {
+  overflow: unset !important;
+}
+
+
+/*2-4-2019*/
+.ReactTable .rt-tbody {
+  overflow: visible;
+}
+
+.card .card-footer {
+  margin-top: 15px;
+}
+
+.Select .is-open {
+  z-index: 1;
+  position: relative;
+}
+
+.ReactTable .rt-table {
+  overflow: none !important;
+}
+
+.tab-content .active .row .btn {
+  margin-left: 15px;
+}
+
+.card .card-footer {
+  bottom: -15px;
+  margin: 15px 5px 0 12px;
+  border-top: 2px solid;
+}
+
+.pagination-bottom {
+  margin: 5px -15px -15px -15px;
+}
+
+.rdtDay.rdtToday.rdtActive,
+.rdtDay.rdtActive,
+.rdtDay.rdtActive:hover {
+  background-color: #447df7 !important;
+  color: #FFFFFF;
+}
+
+.modal-body .card-footer {
+  bottom: -15px;
+  margin: 15px 25px 0 25px;
+  border-top: 2px solid;
+}
+
+.Select-menu-outer {
+  z-index: 9999;
+}
+
+/*list display button tooltip */
+.btn-list {
+  background-color: #fff !important;
+  border: none !important;
+  padding: initial !important;
+  margin: initial !important;
+  padding: 3px !important;
+}
+
+.sidebar {
+  z-index: 1001 !important;
+}
+
+.fix-tab {
+  float: initial !important;
+}
+
+
+
+/* Dropdown Menu CSS */
+
+.Select-menu-outer {
+  z-index: 1002 !important;
+  overflow: visible !important;
+  /* position: relative; 
+  height: 500px !important;*/
+  position: absolute !important;
+  display: inline-block;
+}
+
+.Select.is-open {
+  /* position: relative; */
+  z-index: 10000;
+}
+
+.tab-content .ReactTable .rt-th,
+.tab-content .ReactTable .rt-td,
+.modal-content .ReactTable .rt-th,
+.modal-content .ReactTable .rt-td {
+  overflow: visible !important;
+}
+
+.ReactTable .rt-tbody {
+  overflow: visible;
+}
+
+.tab-content .ReactTable .rt-table,
+.modal-content .ReactTable .rt-table {
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+}
+
+/* http://jsfiddle.net/s270Lyrd/ */
+
+
+.tab-content .ReactTable .rt-tbody .rt-tr-group:last-child,
+.modal-content .ReactTable .rt-tbody .rt-tr-group:last-child {
+  height: 150px;
+}
+
+.tab-content .ReactTable .rt-th,
+.tab-content .ReactTable .rt-td,
+.modal-content .ReactTable .rt-th,
+.modal-content .ReactTable .rt-td {
+  margin: inherit;
+}
+
+.tab-content .ReactTable .rt-tbody .Select-menu-outer,
+.modal-content .ReactTable .rt-tbody .Select-menu-outer {
+  overflow-y: auto !important;
+  position: absolute !important;
+  width: 100%;
+  padding-bottom: 100px;
+  z-index: 2147483647;
+}
+
+.ReactTable .rt-tbody .StateOption .Select-menu-outer {
+  overflow: hidden !important;
+
+}
+
+.tab-content .tab-pane>.col-xs-12 {
+  padding: 0;
+}
+
+
+/* Dropdown Menu CSS */
+
+@media (max-width:992px) {
+  .nav-tabs>li>a {
+    border-bottom: 2px solid white;
+  }
+}
+
+.rbc-day-bg+.rbc-day-bg {
+  cursor: pointer;
+}
+
+.ReactTable .rt-th,
+.ReactTable .rt-td {
+  overflow: hidden !important;
+}
+
+.ReactTable .Select-menu-outer .Select-menu#react-select-2--list .Select-option {
+  z-index: 1000000 !important;
+  overflow: visible !important;
+}
+
+.modal-dialog .modal-content .modal-body .col-md-8.col-md-offset-2 {
+  padding: 0 80px;
+}
+
+.modal-content {
+  background: #dafff3d6;
+}
+
+.main-content .card {
+  background-color: #f3fffcdb;
+}
+
+.ReactTable .rt-table {
+  overflow-y: hidden !important;
+  overflow-x: scroll !important;
+}
+
+
+.large-modal.modal-dialog td,
+.large-modal.modal-dialog th {
+  padding: 5px;
+}
+
+.large-modal.modal-dialog .modal-content {
+  background: #fefefe;
+}
